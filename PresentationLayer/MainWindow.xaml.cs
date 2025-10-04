@@ -21,12 +21,10 @@ namespace PresentationLayer
     public partial class MainWindow : Window
     {
         private readonly IUserService _userService;
-        public MainWindow()
+        public MainWindow(IUserService userService)
         {
             InitializeComponent();
-            var dbContext = new AppDbContext();
-            var userRepo = new UserRepository(dbContext);
-            _userService = new UserService(userRepo);
+            _userService = userService;
         }
 
         private void Button_CreateUser_Click(object sender, RoutedEventArgs e)
