@@ -26,5 +26,10 @@ namespace ApplicationLayer
         {
             return _userRepository.GetById(id);
         }
+
+        public User GetUserByName(string name)
+        {
+            return _userRepository.GetByName(name);
+        }
     }
 }

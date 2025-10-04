@@ -35,7 +35,7 @@ namespace PresentationLayer
 
         private void Button_GetUser_Click(object sender, RoutedEventArgs e)
         {
-            var user = _userService.GetUser(Guid.Parse(txtId.Text));
+            var user = _userService.GetUserByName(txtName.Text);
             if (user != null)
                 MessageBox.Show($"用户：{user.Name}");
             else

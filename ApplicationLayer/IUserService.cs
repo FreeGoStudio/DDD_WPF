@@ -11,5 +11,6 @@ namespace ApplicationLayer
     {
         void CreateUser(string name);
         User GetUser(Guid id);
+        User GetUserByName(string name);
     }
 }

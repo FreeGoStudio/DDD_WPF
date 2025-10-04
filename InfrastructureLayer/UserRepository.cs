@@ -27,5 +27,10 @@ namespace InfrastructureLayer
             _context.Users.Add(user);
             _context.SaveChanges();
         }
+
+        public User GetByName(string name)
+        {
+            return _context.Users.FirstOrDefault(u => u.Name == name);
+        }
     }
 }

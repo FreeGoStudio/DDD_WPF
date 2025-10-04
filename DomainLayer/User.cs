@@ -8,8 +8,13 @@ namespace DomainLayer
 {
     public class User
     {
-        public Guid Id { get; private set; }
-        public string Name { get; private set; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+
+        public User()
+        {
+
+        }
 
         public User(Guid id, string name)
         {
