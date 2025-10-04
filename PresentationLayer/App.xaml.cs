@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace DDD_WPF
+namespace PresentationLayer
 {
     /// <summary>
     /// Interaction logic for App.xaml
