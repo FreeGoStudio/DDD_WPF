@@ -1,0 +1,1 @@
+﻿领域服务接口（如需要 Domain Service）。

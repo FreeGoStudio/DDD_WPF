@@ -1,0 +1,1 @@
+﻿共享基类，如 Entity 基类、IAggregateRoot 接口等。
