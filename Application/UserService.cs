@@ -1,6 +1,6 @@
-﻿using DomainLayer;
+﻿using Domain;
 
-namespace ApplicationLayer
+namespace Application
 {
     public class UserService : IUserService
     {

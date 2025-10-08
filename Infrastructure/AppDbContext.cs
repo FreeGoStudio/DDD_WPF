@@ -1,7 +1,7 @@
-﻿using DomainLayer;
+﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace InfrastructureLayer
+namespace Infrastructure
 {
     public class AppDbContext : DbContext
     {

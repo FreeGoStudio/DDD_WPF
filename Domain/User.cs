@@ -1,4 +1,4 @@
-﻿namespace DomainLayer
+﻿namespace Domain
 {
     public class User
     {
@@ -7,7 +7,6 @@
 
         public User()
         {
-
         }
 
         public User(Guid id, string name)

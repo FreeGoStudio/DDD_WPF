@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace PresentationLayer.Views
+namespace Presentation.WPF.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -1,13 +1,14 @@
-﻿using ApplicationLayer;
+﻿using Application;
 using System.Windows;
 
-namespace PresentationLayer.ViewModels
+namespace Presentation.WPF.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
         private readonly IUserService _userService;
 
         private string _userName;
+
         public string UserName
         {
             get => _userName;

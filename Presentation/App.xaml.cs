@@ -1,13 +1,12 @@
-﻿using ApplicationLayer;
-using DomainLayer;
-using InfrastructureLayer;
+﻿using Application;
+using Domain;
+using Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using PresentationLayer.Views;
+using Presentation.WPF.Views;
 using System.IO;
 using System.Windows;
 
-
-namespace PresentationLayer
+namespace Presentation.WPF
 {
     public partial class App : PrismApplication
     {

@@ -1,6 +1,6 @@
-﻿using DomainLayer;
+﻿using Domain;
 
-namespace InfrastructureLayer
+namespace Infrastructure
 {
     public class UserRepository : IUserRepository
     {
