@@ -1,6 +1,7 @@
-﻿using Domain;
+﻿using Domain.Aggregates.Users;
+using Infrastructure.Persistence.DbContext;
 
-namespace Infrastructure
+namespace Infrastructure.Persistence.Repositories
 {
     public class UserRepository : IUserRepository
     {

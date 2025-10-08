@@ -1,0 +1,1 @@
+﻿文件存储相关实现，如本地存储、Aliyun OSS、Amazon S3 等。

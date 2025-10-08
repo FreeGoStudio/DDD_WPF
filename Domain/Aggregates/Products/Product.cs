@@ -1,4 +1,4 @@
-﻿namespace Domain.Aggregates.Product
+﻿namespace Domain.Aggregates.Products
 {
     internal class Product
     {

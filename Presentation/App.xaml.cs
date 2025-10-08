@@ -1,6 +1,7 @@
 ﻿using Application;
-using Domain;
-using Infrastructure;
+using Domain.Aggregates.Users;
+using Infrastructure.Persistence.DbContext;
+using Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Presentation.WPF.Views;
 using System.IO;

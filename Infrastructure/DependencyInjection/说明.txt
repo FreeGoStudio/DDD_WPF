@@ -1,0 +1,1 @@
+﻿基础设施层的依赖注入配置（如 Autofac、Microsoft DI）。

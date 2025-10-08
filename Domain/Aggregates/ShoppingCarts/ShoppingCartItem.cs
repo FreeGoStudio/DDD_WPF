@@ -1,4 +1,4 @@
-﻿namespace Domain.Aggregates.ShoppingCart
+﻿namespace Domain.Aggregates.ShoppingCarts
 {
     internal class ShoppingCartItem
     {

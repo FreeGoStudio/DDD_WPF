@@ -1,0 +1,1 @@
+﻿实现 Domain 层定义的仓储接口（如 IOrderRepository），与具体的 ORM 技术（如 EF Core）结合。

@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domain.Aggregates.Users
 {
     public class User
     {

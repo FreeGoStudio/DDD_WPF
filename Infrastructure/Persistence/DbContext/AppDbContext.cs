@@ -1,9 +1,9 @@
-﻿using Domain;
+﻿using Domain.Aggregates.Users;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure
+namespace Infrastructure.Persistence.DbContext
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
     {
         public DbSet<User> Users { get; set; }
 
